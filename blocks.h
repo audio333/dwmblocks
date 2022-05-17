@@ -5,8 +5,11 @@ static const Block blocks[] = {
 
 	// {"", "date '+%b %d (%a) %I:%M%p'",					5,		0},
   {"",  "sb-internet",  5,  4},
+  // {"",  "sb-nettraf", 1,  16},
 	{"",	"sb-cpu",		10,	18},
-  {"",  "sb-disk",  0,  0},
+  {"", "sb-memory",  10, 14},
+  // {"",  "sb-disk",  0,  0},
+	{"",	"sb-uptime",	60,	1},
 	{"",	"sb-clock",	60,	1},
 };
 
