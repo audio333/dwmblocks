@@ -9,6 +9,7 @@ static const Block blocks[] = {
 	{"",	"sb-cpu",		10,	18},
   // {"", "sb-memory",  10, 14},
   // {"",  "sb-disk",  0,  0},
+  {"",  "sb-battery", 5,  3},
 	{"",	"sb-uptime",	60,	1},
 	{"",	"sb-clock",	60,	1},
 };
