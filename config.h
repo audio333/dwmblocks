@@ -20,9 +20,10 @@ static const Block blocks[] = {
 	/* {"",	"sb-nettraf",	1,	16}, */
 	{"",	"sb-uptime",	60,	1}, 
 	{"",	"sb-clock",	60,	1}, 
+	{"",	"sb-cmus",	5,	10},
 	{"",	"sb-tsp",	10,	26},
 	{"",	"sb-tsp-dl",	10,	26},
-	{"",	"sb-tsp-md",	10,	26},
+	{"",	"sb-tsp-md",	5,	26},
 	/* {"",	"sb-iplocate", 0,	27}, */
 	/* {"",	"sb-help-icon",	0,	15}, */
 };
